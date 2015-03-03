@@ -1,9 +1,5 @@
 var bbox = [121.01741, 14.552848, 121.062561, 14.585920]
 
-var center = turf.center(pts).geometry.coordinates;
-
-
-
 var map = L.mapbox.map('map', 'examples.map-y7l23tes', { zoomControl: false, minZoom: 12, maxZoom: 15  })
     .setView([14.569383395779191, 121.039981842041, ], 13);
 
