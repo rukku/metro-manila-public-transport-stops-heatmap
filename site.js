@@ -5,7 +5,7 @@ var map = L.mapbox.map('map', 'examples.map-y7l23tes', { zoomControl: false, min
 
 //map.scrollWheelZoom.disable();
 
-var heat = L.heatLayer([], { maxZoom: 14, minZoom: 12 }).addTo(map);
+var heat = L.heatLayer([], { maxZoom: 15, minZoom: 12 }).addTo(map);
 
 var layerGroup = L.layerGroup().addTo(map);
 
