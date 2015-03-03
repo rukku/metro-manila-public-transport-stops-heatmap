@@ -10,7 +10,6 @@ var heat = L.heatLayer([], { maxZoom: 15, minZoom: 12 }).addTo(map);
 var layerGroup = L.layerGroup().addTo(map);
 
 var grid = turf.hex(bbox, 0.01);
-var grid = turf.count(grid, pts, 'pt_count');
 
 grid.features.forEach(function(cell) {
 
